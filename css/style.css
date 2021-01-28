@@ -1,0 +1,614 @@
+/*対象のサイト  https://pas-pol.jp/*/
+
+body{
+    width:100%;
+    height: 100px;
+    margin:0px;
+    padding:0px;
+
+    font-family: "Helvetica Neue", Helvetica, Arial, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+}
+.wrap{
+overflow: hidden;
+}
+
+a {
+    color:black;
+    text-decoration:none;
+}
+h1{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+li{
+    list-style: none;
+}
+
+
+.header{
+    margin:0px;
+    margin-top: -17px;
+    padding:0px;
+    height: 600px;
+    width:100%;
+    background-size:cover;
+    background-repeat: repeat-x;
+    background-image: url("../img/photo-1508672019048-805c876b67e2.jpeg");
+
+}
+
+
+
+
+.header-sp{
+    display: none;
+}
+.header-left{
+   float:left;
+   margin-left: 20px;
+
+}
+.header-left h1{
+   padding-left:10px;
+   color:black;
+}
+.header-right{
+    text-align: right;
+   max-width: 1142px;
+}
+
+.header-right nav ul li{
+    display:inline-block;
+
+    padding:  30px 20px 45px 34px;
+    font-size:18px;
+}
+.globalMenuSp{
+    position: relative;
+    left:-111111px
+}
+
+
+/*タイトルメニュー*/
+
+
+.title-menu h1{
+    font-weight: normal;
+    letter-spacing: 0.1em;
+    font-size: 44px;
+}
+
+.title-menu p{
+    display: block;
+    font-size: 20px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+
+p.about-main-img1 img{
+text-align: center;
+}
+.about-main-img1 img{
+    width:300px;
+
+}
+
+
+/*トップに戻るボタン*/
+
+#page_top {
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+}
+#page_top a {
+    background-color: #999;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px 20px;
+}
+#page_top a:hover {
+    background-color: #666;
+    text-decoration: none;
+}
+
+
+
+/*製品一覧*/
+.product-header{
+display: flex;
+}
+.product-header  h1{
+    font-size: 30px;
+    padding-left: 59px;
+    padding-bottom: 10px;
+    font-weight: normal;
+    line-height: 1;
+    text-align: center;
+    font-family: "Gill Sans Std Book", sans-serif;
+    letter-spacing: 0.1em;
+}
+
+.product-header button{
+    display: block;
+    margin: 0 30px 0 auto;
+
+    width: 162px;
+    height: 46px;
+    line-height: 48px;
+    font-size: 14px;
+    color: #13191b;
+    border: 1px solid #13191b;
+    text-align: center;
+    font-family: "Gill Sans Std Book", sans-serif;
+    letter-spacing: 0.1em;
+}
+
+.product-header button:hover{
+    background-color:#00FF00;
+}
+
+
+card-sec {
+    padding-top: 60px; /* ページタイトルの上の余白 */
+    padding-bottom: 142px; /* カード下の余白*/
+    background-color: #EFEFEF; /* 背景色 */
+}
+
+.page-title {
+    position: relative;
+    color: #333333;
+    font-size: 60px;
+}
+
+.page-title:before { /* page-titleの下線 */
+    display: inline-block;
+    position: absolute;
+    width: 76px;
+    height: 5px;
+    border-radius: 2px;
+    background-color: #3F51B5;
+    content: '';
+    bottom: -42px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(342px, 1fr)); /* gridの設定 */
+    gap: 20px 30px;
+    margin: 109px auto 0;
+    text-align: start;
+}
+
+.card-item {
+    width: 100%;
+    max-width: 242px;
+    margin: auto;
+    padding: 16px 16px 35px;
+    background-color: #ffffff;
+}
+
+.card-img {
+    width: 229.39px;
+    height: auto;
+    vertical-align: bottom;
+}
+.card-img img{
+     width:100%;
+    height: auto;
+    vertical-align: top;
+}
+
+
+.card-img:hover{
+    opacity: 0.3;
+}
+
+
+.card-tit {
+    margin-top: 20px;
+    color: #6F7579;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.card-item p {
+    margin-top: 20px;
+    color: #6F7579;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.card-link h2{
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    margin: 20px 0 0;
+    padding: 0 20px;
+    font-size: 20px;
+}
+
+
+/*ニュース*/
+.news-header{
+    display: flex;
+
+    }
+    .news-header  h1{
+        font-size: 30px;
+        padding-left: 59px;
+
+        font-weight: normal;
+        line-height: 1;
+        margin: 0;
+        font-family: "Gill Sans Std Book", sans-serif;
+        letter-spacing: 0.1em;
+    }
+
+    .news-header button{
+        display: block;
+        margin: 0 30px 0 auto;
+
+        width: 162px;
+        height: 46px;
+        line-height: 48px;
+        font-size: 14px;
+        color: #13191b;
+        border: 1px solid #13191b;
+        text-align: center;
+        font-family: "Gill Sans Std Book", sans-serif;
+        letter-spacing: 0.1em;
+}
+
+.news-area{
+    display: flex;
+    margin-top: 35px;
+}
+.news-image img{
+    width:322px;
+    height:146px;
+    margin: 0 auto 0 auto;
+
+}
+.news-image img:hover{
+    transform:scale(1.1,1.1);
+}
+.news-comment-area h1{
+    font-size:18px;
+    text-align: center;
+}
+
+.news-comment-area{
+    margin: 0 auto 0 auto;
+}
+
+.SNS-button{
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+.SNS-button ul{
+    display:flex;
+}
+.SNS-button ul li {
+    margin: 0 auto 0 auto;
+
+}
+
+.SNS-button ul li {
+    width: 162px;
+    height: 46px;
+    line-height: 48px;
+    font-size: 14px;
+    color: #4871a9;
+    border: 1px solid #4871a9;
+    text-align: center;
+    font-family: "Gill Sans Std Book", sans-serif;
+    letter-spacing: 0.1em;
+}
+.example li{
+    float: left;
+    list-style: none;
+    margin: 50px;
+  }
+
+.footer-navigation{
+    height:80px;
+    background-color: #939899;
+}
+.contact-form h1{
+    text-align: center;
+    font-size: 30px;
+    font-family: "Helvetica Neue", Helvetica, Arial, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+}
+
+.copyRight {
+text-align: center;
+position: relative;
+top:60px;
+margin: auto;
+}
+
+
+.outer{
+    display: table;
+    width: 100%;
+    height:100px;
+    background-color: #656c6e;
+  }
+  .inner{
+    text-align:center;
+    display: table-cell;
+    vertical-align: middle;
+    color:#fff;
+  }
+
+@media screen and (max-width:768px){
+
+/*　レスポンシブ対応　*/
+/*　ヘッダー(レスポンシブ)　*/
+
+.header-left{
+
+    margin:auto;
+
+    top:10px;
+    text-align:center;
+    padding: auto;
+    display: block;
+}
+.header-left h1{
+    margin-top: 10px;
+    padding-top: 20px;
+}
+
+
+
+
+.header-right nav ul{
+    display: none;
+}
+.product{
+    margin-top: 60px;
+}
+/*　ハンバーガーボタン(レスポンシブ)　*/
+.hamburger {
+    display : block;
+    position: fixed;
+    z-index : 3;
+    right : 13px;
+    top   : 12px;
+    width : 42px;
+    height: 42px;
+    cursor: pointer;
+    text-align: center;
+  }
+  .hamburger span {
+    display : block;
+    position: absolute;
+    width   : 30px;
+    height  : 2px ;
+    left    : 6px;
+    background : #555;
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition   : 0.3s ease-in-out;
+    transition        : 0.3s ease-in-out;
+  }
+  .hamburger span:nth-child(1) {
+    top: 10px;
+  }
+  .hamburger span:nth-child(2) {
+    top: 20px;
+  }
+  .hamburger span:nth-child(3) {
+    top: 30px;
+  }
+
+  /* ナビ開いてる時のボタン(レスポンシブ) */
+  .hamburger.active span:nth-child(1) {
+    top : 16px;
+    left: 6px;
+    background :#fff;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform   : rotate(-45deg);
+    transform        : rotate(-45deg);
+  }
+
+  .hamburger.active span:nth-child(2),
+  .hamburger.active span:nth-child(3) {
+    top: 16px;
+    background :#fff;
+    -webkit-transform: rotate(45deg);
+    -moz-transform   : rotate(45deg);
+    transform        : rotate(45deg);
+  }
+
+  nav.globalMenuSp {
+    position: fixed;
+    z-index : 2;
+    top  : 0;
+    left : 0;
+    color: #fff;
+    background: rgba(0,0,0,0.7);
+    text-align: center;
+    width: 100%;
+    opacity: 0;
+    transition: opacity .6s ease, visibility .6s ease;
+  }
+
+  nav.globalMenuSp ul {
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+  }
+
+  nav.globalMenuSp ul li {
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+    transition: .4s all;
+  }
+  nav.globalMenuSp ul li:last-child {
+    padding-bottom: 0;
+  }
+  nav.globalMenuSp ul li:hover{
+    background :#ddd;
+  }
+
+  nav.globalMenuSp ul li a {
+    display: block;
+    color: #fff;
+    padding: 1em 0;
+    text-decoration :none;
+  }
+
+  /* このクラスを、jQueryで付与・削除する */
+  nav.globalMenuSp.active {
+    opacity: 100;
+
+  }
+
+/*　product part(レスポンシブ)　*/
+.card-container{
+    margin: 0 auto;
+}
+
+.product-header{
+    display: block;
+    }
+    .product-header  h1{
+        font-size: 30px;
+        margin: auto;
+
+        font-weight: normal;
+        line-height: 1;
+        font-family: "Gill Sans Std Book", sans-serif;
+        letter-spacing: 0.1em;
+    }
+
+    .product-header button{
+        display: block;
+        margin: auto;
+
+        width: 162px;
+        height: 46px;
+        line-height: 48px;
+        font-size: 14px;
+        color: #13191b;
+        border: 1px solid #13191b;
+        text-align: center;
+        font-family: "Gill Sans Std Book", sans-serif;
+        letter-spacing: 0.1em;
+    }
+/*　ニュースパート　*/
+.news-header{
+    display: block;
+
+    }
+    .news-header  h1{
+        font-size: 30px;
+        margin: auto;
+        margin-right: 50px;
+
+    }
+
+    .news-header button{
+        display: block;
+        margin: auto;
+}
+
+.news-area{
+    display:block;
+    margin-top: 35px;
+    margin-right: 0px;
+}
+.news-image{
+    margin:auto;
+}
+
+.news-image img{
+    width:292px;
+    margin-left: auto;
+    margin-right: 0px;
+    height:196px;
+    margin: auto;
+
+}
+.news-comment-area h1{
+    font-size:14px;
+}
+
+.news-comment-area p{
+    margin: 0 auto 0 auto;
+    font-size:12px;
+    text-align:left;
+}
+
+
+
+/*　SNS part(レスポンシブ)　*/
+
+
+.SNS-button{
+    display:block;
+    margin:auto;
+
+}
+
+.SNS-button ul{
+    display:block;
+    margin:auto;
+}
+
+.SNS-button ul li {
+    margin:auto;
+}
+
+.SNS-button ul li {
+    width: 242px;
+    height: 46px;
+    line-height: 48px;
+    font-size: 14px;
+    color: #4871a9;
+    border: 1px solid #020203;
+    text-align: center;
+    display: block;
+    margin:auto;
+}
+.list{
+    display: block;
+    margin:auto;
+}
+
+.list ul{
+position: relative;
+display: inline;
+margin:auto;
+}
+
+
+
+.list ul li:hover{
+    background-color: #656c6e;
+}
+
+.outer{
+height:50px;
+background-color: #656c6e;
+}
+
+.inner{
+    font-size:10px;
+}
