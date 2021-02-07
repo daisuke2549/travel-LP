@@ -56,7 +56,6 @@ li{
 }
 .header-right{
     text-align: right;
-    margin:auto;
     width:auto;
     margin-right: 20px;
 }
@@ -128,7 +127,6 @@ display: flex;
 }
 .product-header  h1{
     font-size: 30px;
-    padding-left: 59px;
     padding-bottom: 10px;
     font-weight: normal;
     line-height: 1;
@@ -296,48 +294,30 @@ card-sec {
     margin: 0 auto 0 auto;
 }
 /*テストセクション*/
-.test{
-    margin-top: 30px;
-}
+/*ニュース*/
+.contact-header{
+    display: flex;
 
+    }
+    .contact-header  h1{
+        font-size: 30px;
 
-.container{
-    display:flex;
-    flex-direction: row-reverse;
-    justify-content: center;
-    background-color: blue;
-    align-items: center;
-    height:200px;
-}
-.item{
-    width:auto;
-    margin:10px;
-    height:20px;
-    text-align:center;
-    width:300px;
-    height:auto;
-    border:1px solid;
-
-}
-
-
-
-
-.example li{
-    float: left;
-    list-style: none;
-    margin: 50px;
-  }
+        padding-left: 59px;
+        font-weight: normal;
+        line-height: 1;
+        margin: 0;
+        font-family: "Gill Sans Std Book", sans-serif;
+        letter-spacing: 0.1em;
+    }
+    .container {
+        display: inline-flex;
+      }
 
 .footer-navigation{
     height:80px;
     background-color: #939899;
 }
-.contact-form h1{
-    text-align: center;
-    font-size: 30px;
-    font-family: "Helvetica Neue", Helvetica, Arial, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
-}
+
 
 .copyRight {
 text-align: center;
